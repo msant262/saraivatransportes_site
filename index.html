@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saraiva Transportes - Conectando Empresas, Entregando Confiança</title>
+    <meta name="description" content="Transportadora especializada em logística B2B em São Paulo. Fretes competitivos, responsabilidade e agilidade no transporte corporativo.">
+    
+    <!-- Material Design 3 -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+        <div class="header-background">
+            <div class="header-overlay"></div>
+            <div class="header-pattern"></div>
+            
+            <!-- Elementos decorativos do header -->
+            <div class="header-decorative">
+                <div class="header-dot header-dot-1"></div>
+                <div class="header-dot header-dot-2"></div>
+                <div class="header-dot header-dot-3"></div>
+                <div class="header-line header-line-1"></div>
+                <div class="header-line header-line-2"></div>
+            </div>
+        </div>
+        
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <div class="logo-icon-inner">
+                            <span class="material-icons">local_shipping</span>
+                        </div>
+                        <div class="logo-glow"></div>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">Saraiva Transportes</span>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                <nav class="mdc-top-app-bar__navigation">
+                    <a href="#home" class="nav-link">
+                        <div class="nav-icon-container">
+                            <span class="material-icons nav-icon">home</span>
+                            <div class="nav-icon-glow"></div>
+                        </div>
+                        <span class="nav-text">Home</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                    <a href="#empresa" class="nav-link">
+                        <div class="nav-icon-container">
+                            <span class="material-icons nav-icon">business</span>
+                            <div class="nav-icon-glow"></div>
+                        </div>
+                        <span class="nav-text">Empresa</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                    <a href="#servicos" class="nav-link">
+                        <div class="nav-icon-container">
+                            <span class="material-icons nav-icon">local_shipping</span>
+                            <div class="nav-icon-glow"></div>
+                        </div>
+                        <span class="nav-text">Serviços</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                    <a href="#cobertura" class="nav-link">
+                        <div class="nav-icon-container">
+                            <span class="material-icons nav-icon">map</span>
+                            <div class="nav-icon-glow"></div>
+                        </div>
+                        <span class="nav-text">Cobertura</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                    <a href="#contato" class="nav-link">
+                        <div class="nav-icon-container">
+                            <span class="material-icons nav-icon">contact_support</span>
+                            <div class="nav-indicator"></div>
+                        </div>
+                        <span class="nav-text">Contato</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="contact-info">
+                        <div class="contact-icon">
+                            <span class="material-icons">phone</span>
+                            <div class="contact-pulse"></div>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-text">(11) 9999-9999</span>
+                            <span class="contact-label">Atendimento 24h</span>
+                        </div>
+                    </div>
+                    
+                    <button class="mdc-button mdc-button--raised header-btn" id="cotacao-btn">
+                        <div class="btn-content">
+                            <span class="material-icons">request_quote</span>
+                            <span class="mdc-button__label">Solicitar Cotação</span>
+                        </div>
+                        <div class="btn-glow"></div>
+                        <div class="btn-particles">
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                        </div>
+                    </button>
+                </div>
+                
+                <button class="mdc-icon-button material-icons mobile-menu-btn" id="mobile-menu-btn">
+                    menu
+                </button>
+            </section>
+        </div>
+        
+        <!-- Indicador de progresso -->
+        <div class="header-progress">
+            <div class="progress-glow"></div>
+        </div>
+        
+        <!-- Notificação flutuante -->
+        <div class="header-notification">
+            <span class="material-icons">local_shipping</span>
+            <span>Frete grátis para SP Capital</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="hero-pattern"></div>
+            
+            <!-- Elementos decorativos de fundo -->
+            <div class="hero-bg-elements">
+                <div class="bg-element bg-circle-1"></div>
+                <div class="bg-element bg-circle-2"></div>
+                <div class="bg-element bg-circle-3"></div>
+                <div class="bg-element bg-square-1"></div>
+                <div class="bg-element bg-square-2"></div>
+                <div class="bg-element bg-triangle-1"></div>
+                <div class="bg-element bg-triangle-2"></div>
+                <div class="bg-element bg-line-1"></div>
+                <div class="bg-element bg-line-2"></div>
+                <div class="bg-element bg-dots"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="material-icons">verified</span>
+                    <span>Transportadora Certificada</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Conectando Empresas,</span>
+                    <span class="hero-title-accent">Entregando Confiança</span>
+                </h1>
+                
+                <p class="hero-subtitle">Logística Azul: Agilidade e Segurança</p>
+                
+                <p class="hero-description">
+                    Especialistas em transporte B2B em São Paulo. Oferecemos soluções logísticas 
+                    personalizadas com <strong>fretes competitivos</strong> e <strong>máxima responsabilidade</strong>.
+                </p>
+                
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <span class="material-icons">schedule</span>
+                        <span>Entrega Pontual</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="material-icons">security</span>
+                        <span>Seguro de Carga</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="material-icons">support_agent</span>
+                        <span>Atendimento 24h</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <button class="mdc-button mdc-button--raised hero-btn-primary">
+                        <span class="material-icons">request_quote</span>
+                        <span class="mdc-button__label">Solicitar Orçamento</span>
+                    </button>
+                    <button class="mdc-button mdc-button--outlined hero-btn-secondary">
+                        <span class="material-icons">play_circle</span>
+                        <span class="mdc-button__label">Ver Apresentação</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-visual-section">
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">15+</div>
+                        <div class="hero-stat-label">Anos de Experiência</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">500+</div>
+                        <div class="hero-stat-label">Clientes Satisfeitos</div>
+                    </div>
+                </div>
+                
+                <div class="hero-main-visual">
+                    <div class="hero-truck-container">
+                        <div class="hero-truck">
+                            <span class="material-icons">local_shipping</span>
+                        </div>
+                        <div class="hero-road"></div>
+                    </div>
+                    <div class="hero-floating-elements">
+                        <div class="floating-element element-1">
+                            <span class="material-icons">package</span>
+                        </div>
+                        <div class="floating-element element-2">
+                            <span class="material-icons">warehouse</span>
+                        </div>
+                        <div class="floating-element element-3">
+                            <span class="material-icons">location_on</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll-indicator">
+            <span class="material-icons">keyboard_arrow_down</span>
+            <span>Role para descobrir mais</span>
+        </div>
+    </section>
+
+    <!-- Empresa Section -->
+    <section id="empresa" class="section empresa-modern">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-title">Nossa Empresa</h2>
+                <p class="section-subtitle">Seu Parceiro em Transporte Corporativo</p>
+            </div>
+            <div class="empresa-modern-content">
+                <!-- Primeira linha: Estatísticas -->
+                <div class="empresa-stats-row animate-slidein">
+                    <div class="stat-card-modern">
+                        <span class="material-icons stat-icon">local_shipping</span>
+                        <div class="stat-info">
+                            <h4>50+</h4>
+                            <span>Veículos Próprios</span>
+                        </div>
+                    </div>
+                    <div class="stat-card-modern">
+                        <span class="material-icons stat-icon">business</span>
+                        <div class="stat-info">
+                            <h4>200+</h4>
+                            <span>Clientes Atendidos</span>
+                        </div>
+                    </div>
+                    <div class="stat-card-modern">
+                        <span class="material-icons stat-icon">schedule</span>
+                        <div class="stat-info">
+                            <h4>24h</h4>
+                            <span>Atendimento</span>
+                        </div>
+                    </div>
+                    <div class="stat-card-modern">
+                        <span class="material-icons stat-icon">location_on</span>
+                        <div class="stat-info">
+                            <h4>100%</h4>
+                            <span>SP Coberto</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Segunda linha: Missão, Visão e Valores -->
+                <div class="empresa-cards-row">
+                    <div class="empresa-card animate-fadein" style="--delay:0s">
+                        <div class="empresa-card-icon">
+                            <span class="material-icons">flag</span>
+                        </div>
+                        <h3>Missão</h3>
+                        <p>Fornecer soluções logísticas de excelência, conectando empresas através de um serviço de transporte confiável, ágil e responsável, contribuindo para o sucesso dos nossos clientes.</p>
+                    </div>
+                    <div class="empresa-card animate-fadein" style="--delay:0.15s">
+                        <div class="empresa-card-icon">
+                            <span class="material-icons">visibility</span>
+                        </div>
+                        <h3>Visão</h3>
+                        <p>Ser referência em transporte B2B em São Paulo, reconhecida pela qualidade, pontualidade e compromisso com a satisfação total do cliente.</p>
+                    </div>
+                    <div class="empresa-card animate-fadein" style="--delay:0.3s">
+                        <div class="empresa-card-icon">
+                            <span class="material-icons">stars</span>
+                        </div>
+                        <h3>Valores</h3>
+                        <ul>
+                            <li><strong>Confiança:</strong> Base de todos os nossos relacionamentos</li>
+                            <li><strong>Agilidade:</strong> Resposta rápida e eficiente</li>
+                            <li><strong>Responsabilidade:</strong> Compromisso com prazos e qualidade</li>
+                            <li><strong>Inovação:</strong> Busca constante por melhorias</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="section servicos-modern">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-title">Nossos Serviços</h2>
+                <p class="section-subtitle">Soluções completas para seu negócio</p>
+            </div>
+            
+            <div class="servicos-modern-grid">
+                <div class="servico-card-modern animate-fadein" style="--delay:0s">
+                    <div class="servico-card-icon">
+                        <span class="material-icons">local_shipping</span>
+                    </div>
+                    <h3>Transporte de Cargas Gerais</h3>
+                    <p>Transporte seguro e pontual de cargas gerais com veículos adequados para cada tipo de mercadoria.</p>
+                    <ul>
+                        <li>Fretes competitivos</li>
+                        <li>Gestão de cargas</li>
+                        <li>Atendimento personalizado</li>
+                    </ul>
+                </div>
+                
+
+                
+                <div class="servico-card-modern animate-fadein" style="--delay:0.15s">
+                    <div class="servico-card-icon">
+                        <span class="material-icons">security</span>
+                    </div>
+                    <h3>Transporte de Produtos Perigosos</h3>
+                    <p>Transporte especializado de produtos perigosos com toda segurança e documentação necessária.</p>
+                    <ul>
+                        <li>Motoristas habilitados</li>
+                        <li>Veículos certificados</li>
+                        <li>Documentação completa</li>
+                    </ul>
+                </div>
+                
+                <div class="servico-card-modern animate-fadein" style="--delay:0.3s">
+                    <div class="servico-card-icon">
+                        <span class="material-icons">schedule</span>
+                    </div>
+                    <h3>Entrega Express</h3>
+                    <p>Serviço de entrega rápida para cargas urgentes com prazo garantido.</p>
+                    <ul>
+                        <li>Entrega no mesmo dia</li>
+                        <li>Prioridade máxima</li>
+                        <li>Confirmação de entrega</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cobertura Section -->
+    <section id="cobertura" class="section cobertura-modern">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-title">Nossa Cobertura</h2>
+                <p class="section-subtitle">Atendemos São Paulo e Regiões</p>
+            </div>
+            
+            <div class="cobertura-modern-content">
+                <div class="cobertura-regions-modern">
+                    <h3>Principais Regiões</h3>
+                    <div class="regions-modern-grid">
+                        <div class="region-card-modern animate-fadein" style="--delay:0s">
+                            <div class="region-card-icon">
+                                <span class="material-icons">location_city</span>
+                            </div>
+                            <h4>Grande São Paulo</h4>
+                            <p>Capital e região metropolitana</p>
+                        </div>
+                        <div class="region-card-modern animate-fadein" style="--delay:0.1s">
+                            <div class="region-card-icon">
+                                <span class="material-icons">business</span>
+                            </div>
+                            <h4>Campinas</h4>
+                            <p>Região de Campinas e entorno</p>
+                        </div>
+                        <div class="region-card-modern animate-fadein" style="--delay:0.2s">
+                            <div class="region-card-icon">
+                                <span class="material-icons">factory</span>
+                            </div>
+                            <h4>Vale do Paraíba</h4>
+                            <p>São José dos Campos e região</p>
+                        </div>
+                        <div class="region-card-modern animate-fadein" style="--delay:0.3s">
+                            <div class="region-card-icon">
+                                <span class="material-icons">agriculture</span>
+                            </div>
+                            <h4>Ribeirão Preto</h4>
+                            <p>Região de Ribeirão Preto</p>
+                        </div>
+                        <div class="region-card-modern animate-fadein" style="--delay:0.4s">
+                            <div class="region-card-icon">
+                                <span class="material-icons">local_shipping</span>
+                            </div>
+                            <h4>Santos</h4>
+                            <p>Região portuária</p>
+                        </div>
+                        <div class="region-card-modern animate-fadein" style="--delay:0.5s">
+                            <div class="region-card-icon">
+                                <span class="material-icons">store</span>
+                            </div>
+                            <h4>ABC</h4>
+                            <p>Região do ABC Paulista</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="section diferenciais-modern">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-title">Por que Escolher a Saraiva Transportes?</h2>
+                <p class="section-subtitle">Nossos diferenciais que fazem a diferença</p>
+            </div>
+            
+            <div class="diferenciais-modern-grid">
+                <div class="diferencial-card-modern animate-fadein" style="--delay:0s">
+                    <div class="diferencial-card-icon">
+                        <span class="material-icons">speed</span>
+                    </div>
+                    <h3>Agilidade</h3>
+                    <p>Entregas rápidas e pontuais, respeitando sempre os prazos acordados.</p>
+                </div>
+                
+                <div class="diferencial-card-modern animate-fadein" style="--delay:0.1s">
+                    <div class="diferencial-card-icon">
+                        <span class="material-icons">verified</span>
+                    </div>
+                    <h3>Confiabilidade</h3>
+                    <p>Anos de experiência no mercado com clientes satisfeitos e fidelizados.</p>
+                </div>
+                
+                <div class="diferencial-card-modern animate-fadein" style="--delay:0.2s">
+                    <div class="diferencial-card-icon">
+                        <span class="material-icons">attach_money</span>
+                    </div>
+                    <h3>Fretes Competitivos</h3>
+                    <p>Preços justos e transparentes, sem surpresas ou taxas ocultas.</p>
+                </div>
+                
+                <div class="diferencial-card-modern animate-fadein" style="--delay:0.3s">
+                    <div class="diferencial-card-icon">
+                        <span class="material-icons">support_agent</span>
+                    </div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Equipe dedicada para atender suas necessidades específicas.</p>
+                </div>
+                
+                <div class="diferencial-card-modern animate-fadein" style="--delay:0.4s">
+                    <div class="diferencial-card-icon">
+                        <span class="material-icons">security</span>
+                    </div>
+                    <h3>Segurança Total</h3>
+                    <p>Seguro de carga e rastreamento em tempo real para sua tranquilidade.</p>
+                </div>
+                
+                <div class="diferencial-card-modern animate-fadein" style="--delay:0.5s">
+                    <div class="diferencial-card-icon">
+                        <span class="material-icons">eco</span>
+                    </div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Compromisso com o meio ambiente através de práticas sustentáveis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section contato-modern">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title gradient-title">Entre em Contato</h2>
+                <p class="section-subtitle">Estamos prontos para atender você</p>
+            </div>
+            
+            <div class="contato-modern-content">
+                <div class="contato-info-modern">
+                    <h3>Informações de Contato</h3>
+                    
+                    <div class="contato-cards-grid">
+                        <div class="contato-card-modern animate-fadein" style="--delay:0s">
+                            <div class="contato-card-icon">
+                                <span class="material-icons">phone</span>
+                            </div>
+                            <div class="contato-card-content">
+                                <h4>Telefone</h4>
+                                <p>(11) 9999-9999</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contato-card-modern animate-fadein" style="--delay:0.1s">
+                            <div class="contato-card-icon">
+                                <span class="material-icons">email</span>
+                            </div>
+                            <div class="contato-card-content">
+                                <h4>E-mail</h4>
+                                <p>contato@saraivatransportes.com.br</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contato-card-modern animate-fadein" style="--delay:0.2s">
+                            <div class="contato-card-icon">
+                                <span class="material-icons">location_on</span>
+                            </div>
+                            <div class="contato-card-content">
+                                <h4>Endereço</h4>
+                                <p>Rua das Transportadoras, 123<br>São Paulo - SP, 01234-567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contato-card-modern animate-fadein" style="--delay:0.3s">
+                            <div class="contato-card-icon">
+                                <span class="material-icons">schedule</span>
+                            </div>
+                            <div class="contato-card-content">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Saraiva Transportes</h3>
+                    <p>Conectando Empresas, Entregando Confiança</p>
+                    <p>Especialistas em transporte B2B em São Paulo</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Transporte de Cargas</a></li>
+                        <li><a href="#servicos">Produtos Perecíveis</a></li>
+                        <li><a href="#servicos">Produtos Perigosos</a></li>
+                        <li><a href="#servicos">Entrega Express</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#empresa">Sobre Nós</a></li>
+                        <li><a href="#cobertura">Cobertura</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#contato">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📞 (11) 9999-9999</p>
+                    <p>📧 contato@saraivatransportes.com.br</p>
+                    <p>📍 São Paulo - SP</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Saraiva Transportes. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Material Design 3 JavaScript -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
