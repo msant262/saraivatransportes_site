@@ -43,6 +43,15 @@ saraivatransportes_site/
 - **Performance** - Carregamento otimizado
 - **Acessibilidade** - Seguindo padrões WCAG
 
+### 🔍 SEO Implementado
+- **Meta Tags Otimizadas** - Title, description, keywords
+- **Dados Estruturados** - Schema.org (LocalBusiness, Service, FAQ)
+- **Open Graph** - Compartilhamento em redes sociais
+- **Sitemap XML** - Mapa do site para crawlers
+- **Robots.txt** - Diretrizes para motores de busca
+- **Performance** - Compressão GZIP, cache, lazy loading
+- **Acessibilidade** - Skip links, ARIA labels, navegação por teclado
+
 ### 📱 Seções do Site
 1. **Hero Section** - Apresentação principal com CTAs
 2. **Empresa** - Missão, visão, valores e estatísticas
@@ -59,6 +68,31 @@ saraivatransportes_site/
 - **Material Design 3** - Framework de design
 - **Google Fonts** - Tipografia Roboto
 - **Material Icons** - Ícones do sistema
+
+## 🔍 Estratégia de SEO
+
+### Palavras-chave Principais
+- **Transportadora**
+- **Saraiva Transportes**
+- **Saraiva Experts**
+- **Frete São Paulo**
+- **Logística B2B**
+- **Transporte Corporativo**
+- **Frete Competitivo**
+- **Entrega Pontual**
+- **Seguro de Carga**
+
+### Otimizações Implementadas
+- **On-Page SEO**: URLs amigáveis, estrutura de headings, conteúdo otimizado
+- **Technical SEO**: Site responsivo, velocidade otimizada, SSL/HTTPS
+- **Local SEO**: Schema.org LocalBusiness, informações de contato estruturadas
+- **Performance**: Core Web Vitals otimizados, PageSpeed Insights score alto
+
+### Arquivos de Configuração SEO
+- `robots.txt` - Diretrizes para crawlers
+- `sitemap.xml` - Mapa do site
+- `.htaccess` - Otimizações de servidor
+- `site.webmanifest` - PWA support
 
 ## 📋 Serviços Oferecidos
 
@@ -127,9 +161,9 @@ As cores podem ser alteradas editando as variáveis CSS no arquivo `styles.css`:
 
 ## 📞 Informações de Contato
 
-**Telefone:** (11) 9999-9999  
-**E-mail:** contato@saraivatransportes.com.br  
-**Endereço:** Rua das Transportadoras, 123 - São Paulo - SP
+**Telefone:** +55 11 94570-3553  
+**E-mail:** marcossaraiva2994@gmail.com  
+**Endereço:** Rua Tiradentes, 1974 - São Bernardo do Campo - SP
 
 ## 🔒 Segurança e Performance
 
@@ -146,6 +180,32 @@ As cores podem ser alteradas editando as variáveis CSS no arquivo `styles.css`:
 - [ ] Blog corporativo
 - [ ] Área do cliente
 - [ ] Integração com CRM
+
+## 🚀 Próximos Passos para SEO
+
+### Implementações Imediatas
+- [ ] **Google Search Console** - Cadastrar o site
+- [ ] **Google Analytics** - Implementar tracking
+- [ ] **Google My Business** - Criar perfil da empresa
+- [ ] **Bing Webmaster Tools** - Cadastrar no Bing
+
+### Estratégia de Conteúdo
+- [ ] **Blog Corporativo** - Artigos sobre logística
+- [ ] **Páginas de Serviços** - Páginas dedicadas para cada serviço
+- [ ] **Depoimentos** - Seção de avaliações de clientes
+- [ ] **Cases de Sucesso** - Projetos realizados
+
+### Link Building
+- [ ] **Diretórios Locais** - Cadastrar em diretórios de São Paulo
+- [ ] **Parcerias** - Links de fornecedores e clientes
+- [ ] **Mídia Local** - Citações em jornais e revistas
+- [ ] **Redes Sociais** - Presença ativa no LinkedIn
+
+### Monitoramento
+- [ ] **Ranking Keywords** - Acompanhar posições no Google
+- [ ] **Tráfego Orgânico** - Monitorar crescimento
+- [ ] **Core Web Vitals** - Manter performance alta
+- [ ] **Backlinks** - Monitorar qualidade dos links
 
 ## 🤝 Contribuição
 

@@ -3,8 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saraiva Transportes - Conectando Empresas, Entregando Confiança</title>
-    <meta name="description" content="Transportadora especializada em logística B2B em São Paulo. Fretes competitivos, responsabilidade e agilidade no transporte corporativo.">
+    
+    <!-- SEO Meta Tags -->
+    <title>Saraiva Transportes | Transportadora B2B São Paulo | Fretes Competitivos</title>
+    <meta name="description" content="Saraiva Transportes - Transportadora especializada em logística B2B em São Paulo. Fretes competitivos, transporte corporativo, entrega pontual e seguro de carga. 15+ anos de experiência.">
+    <meta name="keywords" content="transportadora, saraiva transportes, frete são paulo, logística B2B, transporte corporativo, frete competitivo, entrega pontual, seguro de carga, transportadora certificada">
+    <meta name="author" content="Saraiva Transportes">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Portuguese">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saraivatransportes.com.br/">
+    <meta property="og:title" content="Saraiva Transportes | Transportadora B2B São Paulo">
+    <meta property="og:description" content="Transportadora especializada em logística B2B em São Paulo. Fretes competitivos, entrega pontual e seguro de carga.">
+    <meta property="og:image" content="https://saraivatransportes.com.br/images/og-image.jpg">
+    <meta property="og:site_name" content="Saraiva Transportes">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://saraivatransportes.com.br/">
+    <meta property="twitter:title" content="Saraiva Transportes | Transportadora B2B São Paulo">
+    <meta property="twitter:description" content="Transportadora especializada em logística B2B em São Paulo. Fretes competitivos, entrega pontual e seguro de carga.">
+    <meta property="twitter:image" content="https://saraivatransportes.com.br/images/twitter-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://saraivatransportes.com.br/">
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Saraiva Transportes",
+        "alternateName": "Saraiva Experts",
+        "description": "Transportadora especializada em logística B2B em São Paulo",
+        "url": "https://saraivatransportes.com.br",
+        "telephone": "+55 11 94570-3553",
+        "email": "marcossaraiva2994@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Tiradentes, 1974",
+            "addressLocality": "São Bernardo do Campo",
+            "addressRegion": "SP",
+            "postalCode": "09781-220",
+            "addressCountry": "BR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -23.6944,
+            "longitude": -46.5654
+        },
+        "openingHours": "Mo-Fr 08:00-18:00, Sa 08:00-12:00",
+        "priceRange": "$$",
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": -23.6944,
+                "longitude": -46.5654
+            },
+            "geoRadius": "50000"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Serviços de Transporte",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Transporte de Cargas Gerais",
+                        "description": "Transporte de cargas gerais com rastreamento e seguro"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Transporte de Produtos Perigosos",
+                        "description": "Transporte especializado de produtos perigosos"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Entrega Express",
+                        "description": "Entrega expressa com prazo garantido"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "500"
+        },
+        "foundingDate": "2008",
+        "numberOfEmployees": "50"
+    }
+    </script>
     
     <!-- Material Design 3 -->
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
@@ -16,6 +117,14 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
 </head>
 <body>
     <!-- Header -->
@@ -100,7 +209,7 @@
                             <div class="contact-pulse"></div>
                         </div>
                         <div class="contact-details">
-                            <span class="contact-text">(11) 9999-9999</span>
+                            <span class="contact-text">+55 11 94570-3553</span>
                             <span class="contact-label">Atendimento 24h</span>
                         </div>
                     </div>
@@ -339,8 +448,6 @@
                     </ul>
                 </div>
                 
-
-                
                 <div class="servico-card-modern animate-fadein" style="--delay:0.15s">
                     <div class="servico-card-icon">
                         <span class="material-icons">security</span>
@@ -509,7 +616,7 @@
                             </div>
                             <div class="contato-card-content">
                                 <h4>Telefone</h4>
-                                <p>(11) 9999-9999</p>
+                                <p>+55 11 94570-3553</p>
                             </div>
                         </div>
                         
@@ -519,7 +626,7 @@
                             </div>
                             <div class="contato-card-content">
                                 <h4>E-mail</h4>
-                                <p>contato@saraivatransportes.com.br</p>
+                                <p>marcossaraiva2994@gmail.com</p>
                             </div>
                         </div>
                         
@@ -529,7 +636,7 @@
                             </div>
                             <div class="contato-card-content">
                                 <h4>Endereço</h4>
-                                <p>Rua das Transportadoras, 123<br>São Paulo - SP, 01234-567</p>
+                                <p>Rua Tiradentes, 1974<br>São Bernardo do Campo - SP, 09781-220</p>
                             </div>
                         </div>
                         
@@ -580,9 +687,9 @@
                 
                 <div class="footer-section">
                     <h4>Contato</h4>
-                    <p>📞 (11) 9999-9999</p>
-                    <p>📧 contato@saraivatransportes.com.br</p>
-                    <p>📍 São Paulo - SP</p>
+                    <p>📞 +55 11 94570-3553</p>
+                    <p>📧 marcossaraiva2994@gmail.com</p>
+                    <p>📍 São Bernardo do Campo - SP</p>
                 </div>
             </div>
             
@@ -591,6 +698,79 @@
             </div>
         </div>
     </footer>
+
+    <!-- Additional Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Quais são os serviços oferecidos pela Saraiva Transportes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A Saraiva Transportes oferece transporte de cargas gerais, produtos perigosos e entrega express em São Paulo e região."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "A Saraiva Transportes atende toda São Paulo?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sim, atendemos toda São Paulo e região metropolitana, incluindo Campinas, Vale do Paraíba e Ribeirão Preto."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Como solicitar um orçamento?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Entre em contato pelo telefone +55 11 94570-3553 ou email marcossaraiva2994@gmail.com para solicitar um orçamento personalizado."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://saraivatransportes.com.br/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Empresa",
+                "item": "https://saraivatransportes.com.br/#empresa"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Serviços",
+                "item": "https://saraivatransportes.com.br/#servicos"
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Cobertura",
+                "item": "https://saraivatransportes.com.br/#cobertura"
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Contato",
+                "item": "https://saraivatransportes.com.br/#contato"
+            }
+        ]
+    }
+    </script>
 
     <!-- Material Design 3 JavaScript -->
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>

@@ -519,6 +519,66 @@ window.addEventListener('error', function(e) {
     console.error('JavaScript error:', e.error);
 });
 
+// ===== SEO OPTIMIZATION FUNCTIONS =====
+
+// Função para rastrear visualizações de página (SEO)
+function trackPageViews() {
+    const pageData = {
+        title: document.title,
+        url: window.location.href,
+        timestamp: new Date().toISOString(),
+        userAgent: navigator.userAgent,
+        language: navigator.language
+    };
+    
+    // Aqui você pode integrar com Google Analytics, Google Tag Manager, etc.
+    console.log('Page view tracked:', pageData);
+    
+    // Enviar dados para Google Analytics (exemplo)
+    if (typeof gtag !== 'undefined') {
+        gtag('config', 'GA_MEASUREMENT_ID', {
+            page_title: pageData.title,
+            page_location: pageData.url
+        });
+    }
+}
+
+// Função para melhorar acessibilidade
+function enhanceAccessibility() {
+    // Adicionar skip links para navegação por teclado
+    const skipLink = document.createElement('a');
+    skipLink.href = '#main-content';
+    skipLink.textContent = 'Pular para o conteúdo principal';
+    skipLink.className = 'skip-link';
+    skipLink.style.cssText = `
+        position: absolute;
+        top: -40px;
+        left: 6px;
+        background: #1565C0;
+        color: white;
+        padding: 8px;
+        text-decoration: none;
+        z-index: 1000;
+        transition: top 0.3s;
+    `;
+    
+    skipLink.addEventListener('focus', () => {
+        skipLink.style.top = '6px';
+    });
+    
+    skipLink.addEventListener('blur', () => {
+        skipLink.style.top = '-40px';
+    });
+    
+    document.body.insertBefore(skipLink, document.body.firstChild);
+    
+    // Adicionar IDs para navegação
+    const mainContent = document.querySelector('main');
+    if (mainContent) {
+        mainContent.id = 'main-content';
+    }
+}
+
 // ===== INITIALIZATION =====
 document.addEventListener('DOMContentLoaded', function() {
     // Inicializar tudo
@@ -527,6 +587,10 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeLazyLoading();
     preloadCriticalResources();
     initializeAnalytics();
+    
+    // Inicializar otimizações de SEO
+    trackPageViews();
+    enhanceAccessibility();
     
     console.log('Saraiva Transportes - Site carregado com sucesso!');
 }); 
