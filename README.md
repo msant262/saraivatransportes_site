@@ -1,10 +1,10 @@
-# Saraiva Transportes - Site Corporativo
+# Saraiva Express - Site Corporativo
 
 Site profissional para transportadora desenvolvido com HTML5 e Material Design 3, focado em B2B e especializado em transporte em São Paulo.
 
 ## 🚚 Sobre o Projeto
 
-Este site foi desenvolvido para a **Saraiva Transportes**, uma transportadora especializada em logística B2B no estado de São Paulo. O projeto utiliza as melhores práticas de design e desenvolvimento web, seguindo os princípios do Material Design 3.
+Este site foi desenvolvido para a **Saraiva Express**, uma transportadora especializada em logística B2B no estado de São Paulo. O projeto utiliza as melhores práticas de design e desenvolvimento web, seguindo os princípios do Material Design 3.
 
 ### Slogan Principal
 **"Conectando Empresas, Entregando Confiança"**
@@ -23,7 +23,7 @@ Este site foi desenvolvido para a **Saraiva Transportes**, uma transportadora es
 ## 📁 Estrutura do Projeto
 
 ```
-saraivatransportes_site/
+saraivaexpress_site/
 ├── index.html          # Página principal
 ├── styles.css          # Estilos CSS customizados
 ├── script.js           # JavaScript com funcionalidades
@@ -73,8 +73,8 @@ saraivatransportes_site/
 
 ### Palavras-chave Principais
 - **Transportadora**
-- **Saraiva Transportes**
-- **Saraiva Experts**
+- **Saraiva Express**
+- **Saraiva Express**
 - **Frete São Paulo**
 - **Logística B2B**
 - **Transporte Corporativo**
@@ -218,8 +218,8 @@ Para contribuir com melhorias:
 
 ## 📄 Licença
 
-Este projeto é propriedade da Saraiva Transportes. Todos os direitos reservados.
+Este projeto é propriedade da Saraiva Express. Todos os direitos reservados.
 
 ---
 
-**Desenvolvido com ❤️ para a Saraiva Transportes** 
+**Desenvolvido com ❤️ para a Saraiva Express** 

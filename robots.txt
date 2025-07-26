@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://saraivatransportes.com.br/sitemap.xml
+Sitemap: https://saraivaexpress.com.br/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1

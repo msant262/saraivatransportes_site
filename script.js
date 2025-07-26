@@ -592,5 +592,5 @@ document.addEventListener('DOMContentLoaded', function() {
     trackPageViews();
     enhanceAccessibility();
     
-    console.log('Saraiva Transportes - Site carregado com sucesso!');
+    console.log('Saraiva Express - Site carregado com sucesso!');
 }); 

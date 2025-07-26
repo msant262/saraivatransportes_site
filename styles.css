@@ -218,7 +218,7 @@ body {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: var(--spacing-md);
+    gap: var(--spacing-lg);
     position: relative;
     z-index: 1;
     padding: var(--spacing-lg) 0;
@@ -227,8 +227,8 @@ body {
 
 .logo-icon {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -262,12 +262,7 @@ body {
     z-index: 1;
 }
 
-.logo-icon .material-icons {
-    font-size: 28px;
-    color: var(--text-primary);
-    position: relative;
-    z-index: 3;
-}
+/* Logo image styles are now handled by .logo-image class */
 
 @keyframes logoPulse {
     0%, 100% { transform: scale(1); }
@@ -288,7 +283,7 @@ body {
 
 .logo-title {
     font-weight: 700;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-xl);
     line-height: 1.2;
     background: linear-gradient(135deg, var(--text-white), var(--accent-color));
     -webkit-background-clip: text;
@@ -1770,11 +1765,19 @@ body {
     }
     
     .logo-text {
-        display: none;
+        display: block;
+    }
+    
+    .logo-title {
+        font-size: var(--font-size-lg);
     }
     
     .logo-container {
-        gap: var(--spacing-sm);
+        gap: var(--spacing-md);
+    }
+    
+    .logo-title {
+        font-size: var(--font-size-md);
     }
     
     .logo-icon {
@@ -1782,8 +1785,9 @@ body {
         height: 35px;
     }
     
-    .logo-icon .material-icons {
-        font-size: 20px;
+    .logo-image {
+        width: 90%;
+        height: 90%;
     }
     
     .header-notification {
@@ -2697,5 +2701,54 @@ body {
     }
     .contato-card-modern {
         padding: var(--spacing-lg) var(--spacing-md);
+    }
+}
+
+/* ===== LOGO IMAGE STYLES ===== */
+.logo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    position: relative;
+    z-index: 3;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.logo-icon-inner {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.logo-icon-inner .logo-image {
+    transition: transform 0.3s ease;
+}
+
+.logo-icon:hover .logo-image {
+    transform: scale(1.05);
+}
+
+/* Responsive logo adjustments */
+@media (max-width: 768px) {
+    .logo-image {
+        width: 90%;
+        height: 90%;
+    }
+    
+    .logo-icon {
+        width: 105px;
+        height: 105px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-image {
+        width: 85%;
+        height: 85%;
+    }
+    
+    .logo-icon {
+        width: 155px;
+        height: 155px;
     }
 }
